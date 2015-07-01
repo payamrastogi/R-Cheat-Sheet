@@ -9,11 +9,17 @@
 
   where d1, d2 are dataframes.
 
+  dimension of two dataframes should be equal
 
-- To check if the value in dataframe d1 is present in the same row of the dataframe d2
 
-  > for(i in 0:38)
+- To check if a value in a dataframe d1 is present in the same row of a dataframe d2
+
+  > for(i in 0:n)
   > print(d1[i,] %in% d2[i,])
+
+    where n is number of rows in dataframe.
+
+    dimension of two dataframes should be equal.
 
 - To get the dimension of a dataframe
 

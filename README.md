@@ -24,3 +24,9 @@
 - **To get the dimension of a dataframe**
 
   >dim(d1)
+
+- **To include first n columns in the dataframe**
+
+  >d1 = d1[0:n]
+
+  

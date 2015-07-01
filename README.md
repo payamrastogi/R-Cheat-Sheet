@@ -25,8 +25,10 @@
 
   >dim(d1)
 
-- **To include first n columns in the dataframe**
+- **To include first n columns in a dataframe(slicing)**
 
   >d1 = d1[0:n]
 
-  
+- **To count occurence of any specific value in a dataframe d1**
+
+  >length(which(d1=='TRUE'))

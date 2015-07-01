@@ -49,7 +49,7 @@
 
   >length(which(d1=='TRUE'))
 
-- **To sort a dataframe by a specified column or columns **
+- **To sort a dataframe by a specified column or columns**
 
   >d1 = d1[order(column_name),]
 
@@ -59,11 +59,11 @@
 
   * where d1 is sorted by column_name1 (ascending) and column_name2 (descending)
 
-- **To keep rows with distinct values in column c **
+- **To keep rows with distinct values in column c**
 
   >d1 = d1[!duplicated(d1$c),]
 
-- **To extract unique elements **
+- **To extract unique elements**
 
   >v1 = unique(v1)
 
